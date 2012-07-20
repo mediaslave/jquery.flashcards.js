@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Your Website</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="../jquery.flashcards.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+ 			 $('#cards').flashcards({frontColor: '#ccc', backColor:'#7a9fa8'});
+		});
+	</script>
+	<style type="css/text">
+		.card{font-size:16px;}
+	</style>
+</head>
+
+<body>
+	
+	<section>
+		<div id="cards" style="position:relative;padding:5px;">
+			<p>What is 2 + 2?</p>
+			<p>4</p>
+			<p>What is 2 + 3?</p>
+			<p>5</p>
+			<p>What is 2 + 4?</p>
+			<p>6</p>
+		</div>
+		<div style="clear:both;">&nbsp;</div>
+	</section>
+
+	<section>
+		<nav>
+			<ul>
+				<li><a href="#" id="prev">previous</a></li>
+				<li><a href="#" id="flip">flip</a></li>
+				<li><a href="#" id="next">next</a></li>
+			</ul>
+		</nav>
+	</section>
+
+	<footer>
+		<p><a href="https://github.com/mediaslave">Justin Palmer</a></p>
+	</footer>
+
+</body>
+</html>
